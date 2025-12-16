@@ -1,16 +1,36 @@
-# React + Vite
+# El Horno Mágico 🥖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto final para el curso de React JS. Es un e-commerce de una panadería que incluye navegación, catálogo, detalle de productos, carrito de compras y checkout.
 
-Currently, two official plugins are available:
+## 🚀 Link al Deploy
+steady-torrone-5a12fa.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
+- **Catálogo de Productos:** Conectado a MockAPI.
+- **Filtrado:** Barra de búsqueda por nombre y categorías.
+- **Carrito de Compras:** Gestionado con Context API.
+- **Autenticación:** Login simulado para proteger el Checkout.
+- **Detalle de Producto:** Vista individual con stock y descripción.
 
-## React Compiler
+## 🛠️ Tecnologías
+- React JS
+- React Router Dom
+- Context API
+- MockAPI (Backend simulado)
+- Netlify (Deploy)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Instalación
+Si quieres correr este proyecto localmente:
 
-## Expanding the ESLint configuration
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/Jaz-Q/proyecto-react-panaderiaC25232.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Instalar dependencias:
+     ```bash
+   npm install
+   
+3. Correr el servidor:
+     ```bash
+    npm run dev
+    
